@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #141311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: 10px 10px;
+    background-image:
+        linear-gradient(to right, rgb(24, 24, 24) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(24, 24, 24) 1px, transparent 1px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 100%;
+    margin: calc(30px + 1vw);
+    background-color: #e3fb4b;
+    background-size: 10px 10px;
+    background-image:
+        linear-gradient(to right, rgba(24, 24, 24, 0.034) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(24, 24, 24, 0.034) 1px, transparent 1px);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 100%;
+}
+
+footer {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    border-top: 1px solid #141311;
+}
+
+.page-title {
+    font-weight: 1000;
+    letter-spacing: -1.5px;
+    font-size: 25px;
+}
+
+.left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 90px;
+    letter-spacing: -4px;
+}
+
+.bio {
+    color: #7c7c7c;
+    width: 50%;
+    margin: 40px 0;
+}
+
+.sub {
+    font-weight: normal;
+    color: #7c7c7c;
+}
+
+.right {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    border-radius: 100px;
+}
+
+.github-link {
+    color: black;
+    text-decoration: none;
+}
+
+.gray {
+    color: #7c7c7c;
+}
